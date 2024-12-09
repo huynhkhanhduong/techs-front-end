@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../HTML_CSS_JS/Authentication"
+		},
+		{
+			"path": "../../../../../../HTML_CSS_JS/safe-travel-front-end"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Authentication"
+	}
+	
+}
