@@ -1,0 +1,154 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy Z Fold6 12GB 256GB",
+      "price": "39.990.000đ",
+      "oldPrice": "43.990.000đ",
+      "discount": "Giảm 9%",
+      "image": "samsung-galaxy-z-fold-6-xanh_5_.png",
+      "rating": 5,
+      "category": "phone"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S24 Ultra 12GB 256GB",
+      "price": "25.490.000đ",
+      "oldPrice": "33.990.000đ",
+      "discount": "Giảm 25%",
+      "image": "ss-s24-ultra-xam-222.png",
+      "rating": 5,
+      "category": "phone"
+    },
+    {
+      "id": 3,
+      "name": "OPPO Find X8",
+      "price": "22.990.000đ",
+      "oldPrice": "",
+      "discount": "Giảm 15%",
+      "image": "dien-thoai-oppo-find-x8-xam-1.png",
+      "rating": 5,
+      "category": "phone"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 15 Pro Max 256GB",
+      "price": "29.290.000đ",
+      "oldPrice": "34.990.000đ",
+      "discount": "Giảm 16%",
+      "image": "iphone-15-pro-max_3.png",
+      "rating": 5,
+      "category": "phone"
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi Redmi 14C 4GB 128GB",
+      "price": "2.990.000đ",
+      "oldPrice": "3.290.000đ",
+      "discount": "Giảm 9%",
+      "image": "xiaomi_redmi_14c_5_.png",
+      "rating": 5,
+      "category": "phone"
+    },
+    {
+      "id": 6,
+      "name": "Samsung Galaxy A15 LTE 8GB 128GB",
+      "price": "4.350.000đ",
+      "oldPrice": "4.990.000đ",
+      "discount": "Giảm 13%",
+      "image": "path_to_image_6",
+      "rating": 5,
+      "category": "phone"
+    },
+    {
+      "id": 7,
+      "name": "Xiaomi Redmi Note 13 Pro Plus 5G 8GB 256GB",
+      "price": "8.790.000đ",
+      "oldPrice": "10.990.000đ",
+      "discount": "Giảm 20%",
+      "image": "path_to_image_7",
+      "rating": 5,
+      "category": "phone"
+    },
+    {
+      "id": 8,
+      "name": "iPhone 15 128GB",
+      "price": "19.490.000đ",
+      "oldPrice": "22.990.000đ",
+      "discount": "Giảm 15%",
+      "image": "path_to_image_8",
+      "rating": 5,
+      "category": "phone"
+    },
+    {
+      "id": 9,
+      "name": "Xiaomi POCO X6 Pro 5G 8GB 256GB",
+      "price": "8.490.000đ",
+      "oldPrice": "9.990.000đ",
+      "discount": "Giảm 15%",
+      "image": "path_to_image_9",
+      "rating": 5,
+      "category": "phone"
+    },
+    {
+      "id": 10,
+      "name": "Xiaomi 14T Pro 12GB 512GB",
+      "price": "17.990.000đ",
+      "oldPrice": "",
+      "discount": "Giảm 15%",
+      "image": "path_to_image_10",
+      "rating": 5,
+      "category": "phone"
+    },
+    {
+      "id": 11,
+      "name": "Laptop ASUS Vivobook 15 X1504ZA-NJ517W",
+      "price": "13.690.000đ",
+      "oldPrice": "46.490.000đ",
+      "discount": "Giảm 17%",
+      "image": "laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png",
+      "rating": 5,
+      "category": "laptop"
+    },
+    {
+      "id": 12,
+      "name": "Apple MacBook Air M2 2024",
+      "price": "24.390.000đ",
+      "oldPrice": "24.990.000đ",
+      "discount": "Giảm 2%",
+      "image": "image_1396_1.png",
+      "rating": 5,
+      "category": "laptop"
+    },
+    {
+      "id": 13,
+      "name": "Laptop Acer Aspire 3 Spin A3SP14-31PT-387Z",
+      "price": "9.490.000đ",
+      "oldPrice": "14.990.000đ",
+      "discount": "Giảm 37%",
+      "image": "text_d_i_1__3_13.png",
+      "rating": 5,
+      "category": "laptop"
+    },
+    {
+      "id": 14,
+      "name": "Apple MacBook Air M1 256GB (2020)",
+      "price": "18.190.000đ",
+      "oldPrice": "22.990.000đ",
+      "discount": "Giảm 21%",
+      "image": "macbook_5_1.png",
+      "rating": 5,
+      "category": "laptop"
+    },
+    {
+      "id": 15,
+      "name": "Apple MacBook Air M2 2024",
+      "price": "22.290.000đ",
+      "oldPrice": "24.990.000đ",
+      "discount": "Giảm 11%",
+      "image": "macbook_1__1_8.png",
+      "rating": 5,
+      "category": "laptop"
+    }
+  ]
+}
