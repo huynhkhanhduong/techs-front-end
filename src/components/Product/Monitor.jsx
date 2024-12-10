@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ProductList from "./ProductList"; // Import ProductList
 
-const Laptop = () => {
+const Monitor = () => {
   const [products, setProducts] = useState([]);
   const [startIndex, setStartIndex] = useState(0); // Chỉ số bắt đầu
   const [error, setError] = useState(null); // State để lưu lỗi
@@ -12,8 +12,8 @@ const Laptop = () => {
     axios
       .get("http://localhost:3001/products")
       .then((response) => {
-        const laptops = response.data.filter((product) => product.category === "laptop"); // Lọc laptop
-        setProducts(laptops);
+        const Monitors = response.data.filter((product) => product.category === "monitor"); // Lọc laptop
+      setProducts(Monitors);
       })
       .catch((error) => {
         setError("Không thể tải dữ liệu sản phẩm.");
@@ -48,14 +48,12 @@ const Laptop = () => {
   ];
 
   const categories = [
-    "Macbook",
-    "Asus",
-    "MSI",
-    "Lenovo",
-    "HP",
-    "Acer",
-    "Dell",
-    "Huawei",
+    "Build PC",
+    "Máy tính bàn",
+    "PC Gaming",
+    "PC Đồ hoạ",
+    "PC đồng bộ",
+    "Màn hình Gaming",
     "Xem tất cả",
   ];
 
@@ -71,7 +69,7 @@ const Laptop = () => {
   return (
     <div className="mb-12 ">
       <div className="flex items-center justify-between mb-3">
-        <h1 className="text-2xl font-semibold text-center">LAPTOP</h1>
+        <h1 className="text-2xl font-semibold text-center">MÀN HÌNH</h1>
         {/* Các nút loại điện thoại */}
         <div className="flex gap-4">
           {categories.map((category) => (
@@ -113,4 +111,4 @@ const Laptop = () => {
   );
 };
 
-export default Laptop;
+export default Monitor;

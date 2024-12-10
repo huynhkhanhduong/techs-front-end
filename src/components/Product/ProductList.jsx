@@ -1,12 +1,18 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 const ProductList = ({ products, favorites, toggleFavorite }) => {
   return (
-    <div className="flex justify-between items-stretch gap-4 w-full">
+    <div className="flex justify-between items-stretch gap-4 w-full ">
       {products.map((product) => (
-        <div
+        <Link
+        to="buy"
           key={product.id}
-          className="bg-white rounded-lg shadow-md p-4 transition transform hover:scale-105 hover:shadow-lg w-full sm:w-1/5 flex flex-col"
+          className="bg-white rounded-lg shadow-md p-4 transition transform hover:scale-105 hover:shadow-lg w-full sm:w-1/5 flex flex-col relative"
         >
+          <div className="absolute top-0 left-0 bg-red-600 text-white text-xs p-2 rounded-r-lg font-semibold">
+           Giảm 17%
+            </div>
+          <div className="absolute top-0 right-0 text-blue-400 text-xs p-1 border border-blue-400 rounded-lg">Trả góp 0%</div>
           <img
             src={`/public/${product.image}`}
             alt={product.name}
@@ -47,7 +53,7 @@ const ProductList = ({ products, favorites, toggleFavorite }) => {
               </button>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   );

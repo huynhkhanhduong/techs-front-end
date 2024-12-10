@@ -1,24 +1,22 @@
-import Laptop from './components/Product/Laptop';
-import Navbar from './components/Navbar';
-import Phone from './components/Product/Phone';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import UserProfile from "./components/User/UserProfile";
+import Apple from "./components/Product/Apple";
+import ShoppingCart from "./components/Product/ShoppingCart";
+import Buy from "./components/Product/Buy";
 
-const App = () => {
+function App() {
   return (
-    <>
-      <Navbar />
-      <div
-        className="h-full  flex flex-col items-center justify-center pt-20"
-        style={{
-          backgroundImage: "url('/public/pexels-ozgomz-845405.jpg')",
-        }}
-      >
-        <div className="px-4 py-6 bg-white ml-4 mr-4 mt-4 rounded-lg max-w-7xl">
-          <Phone />
-          <Laptop />
-        </div>
-      </div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/user-profile" element={<UserProfile />} />
+        <Route path="/apple" element={<Apple />} />
+        <Route path="/shoppingcart" element={<ShoppingCart />} />
+        <Route path="/buy" element={<Buy />} />
+      </Routes>
+    </Router>
   );
-};
+}
 
 export default App;

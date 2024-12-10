@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="bg-red-600 text-white py-3 px-5 flex items-center justify-between fixed left-0 right-0 z-20">
       {/* Logo */}
-      <div className="flex items-center gap-3 mr-5">
-        <span className="text-lg font-bold">TechS</span>
-      </div>
+      <Link to="/" className="flex items-center gap-3 mr-5 ml-4">
+        <span className="text-2xl font-bold ">TechS</span>
+      </Link>
 
       {/* Danh mục */}
       <div className="flex items-center gap-3">
@@ -40,24 +41,20 @@ const Navbar = () => {
         </a>
 
         {/* Giỏ hàng */}
-        <a href="#" className="flex items-center gap-2 px-2 py-2 rounded-xl hover:bg-red-500">
+        <Link to="/shoppingcart" className="flex items-center gap-2 px-2 py-2 rounded-xl hover:bg-red-500">
           <img
             src="/public/Shopping-Cart.svg" 
             alt="Cart"
             className="w-6 h-6"
           />
           Giỏ hàng
-        </a>
+        </Link>
 
         {/* Đăng nhập */}
-        <button className="flex flex-col justify-center items-center text-sm bg-red-500 text-white px-2 py-2 rounded-xl hover:bg-red-700">
-          <img
-            src="/public/User.svg" /* Thay đường dẫn ảnh tại đây */
-            alt="Icon"
-            className="w-5 h-5"
-          />
+        <Link to="/user-profile" className="flex flex-col justify-center items-center text-sm bg-red-500 text-white px-2 py-2 rounded-xl hover:bg-red-700">
+          <img src="/public/User.svg" alt="Icon" className="w-5 h-5" />
           Đăng nhập
-        </button>
+        </Link>
       </div>
     </div>
   );

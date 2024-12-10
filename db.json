@@ -56,7 +56,7 @@
       "price": "4.350.000đ",
       "oldPrice": "4.990.000đ",
       "discount": "Giảm 13%",
-      "image": "path_to_image_6",
+      "image": "ss-s24-ultra-xam-222.png",
       "rating": 5,
       "category": "phone"
     },
@@ -66,7 +66,7 @@
       "price": "8.790.000đ",
       "oldPrice": "10.990.000đ",
       "discount": "Giảm 20%",
-      "image": "path_to_image_7",
+      "image": "ss-s24-ultra-xam-222.png",
       "rating": 5,
       "category": "phone"
     },
@@ -76,7 +76,7 @@
       "price": "19.490.000đ",
       "oldPrice": "22.990.000đ",
       "discount": "Giảm 15%",
-      "image": "path_to_image_8",
+      "image": "ss-s24-ultra-xam-222.png",
       "rating": 5,
       "category": "phone"
     },
@@ -86,7 +86,7 @@
       "price": "8.490.000đ",
       "oldPrice": "9.990.000đ",
       "discount": "Giảm 15%",
-      "image": "path_to_image_9",
+      "image": "ss-s24-ultra-xam-222.png",
       "rating": 5,
       "category": "phone"
     },
@@ -96,7 +96,7 @@
       "price": "17.990.000đ",
       "oldPrice": "",
       "discount": "Giảm 15%",
-      "image": "path_to_image_10",
+      "image": "ss-s24-ultra-xam-222.png",
       "rating": 5,
       "category": "phone"
     },
@@ -149,6 +149,107 @@
       "image": "macbook_1__1_8.png",
       "rating": 5,
       "category": "laptop"
-    }
+    },
+
+      {
+        "id": 16,
+        "name": "Màn hình Gaming LG UltraGear 24GS50F-B 24 inch",
+        "price": "2.790.000đ",
+        "oldPrice": "3.490.000đ",
+        "discount": "Giảm 20%",
+        "image": "mh1.png",
+        "rating": 5,
+        "category": "monitor"
+      },
+      {
+        "id": 17,
+        "name": "Màn hình Monitor Xiaomi 27 A27i ELA5345EU",
+        "price": "2.390.000đ",
+        "oldPrice": "2.990.000đ",
+        "discount": "Giảm 20%",
+        "image": "mh2.png",
+        "rating": 5,
+        "category": "monitor"
+      },
+      {
+        "id": 18,
+        "name": "Màn hình di động MSI Pro MP161 E2 15.6 inch",
+        "price": "3.390.000đ",
+        "oldPrice": "4.490.000đ",
+        "discount": "Giảm 24%",
+        "image": "mh3.png",
+        "rating": 5,
+        "category": "monitor"
+      },
+      {
+        "id": 19,
+        "name": "Màn hình LG UltraWide 29WQ600 29 inch",
+        "price": "4.489.000đ",
+        "oldPrice": "6.490.000đ",
+        "discount": "Giảm 31%",
+        "image": "mh4.png",
+        "rating": 5,
+        "category": "monitor"
+      },
+      {
+        "id": 20,
+        "name": "Màn hình MSI MP251 E2 25 inch 120Hz",
+        "price": "2.290.000đ",
+        "oldPrice": "2.990.000đ",
+        "discount": "Giảm 23%",
+        "image": "mh5.png",
+        "rating": 5,
+        "category": "monitor"
+      },
+        {
+          "id": 21,
+          "name": "iPad Gen 10 10.9 inch 2022 Wifi 64GB",
+          "price": "8.790.000đ",
+          "oldPrice": "12.990.000đ",
+          "discount": "Giảm 32%",
+          "image": "mtb1.png",
+          "rating": 5,
+          "category": "tablet"
+        },
+        {
+          "id": 22,
+          "name": "iPad Air 6 M2 11 inch Wifi 128GB",
+          "price": "14.890.000đ",
+          "oldPrice": "16.990.000đ",
+          "discount": "Giảm 12%",
+          "image": "mtb2.png",
+          "rating": 5,
+          "category": "tablet"
+        },
+        {
+          "id": 23,
+          "name": "Samsung Galaxy Tab S9 FE 5G 128GB",
+          "price": "9.290.000đ",
+          "oldPrice": "12.990.000đ",
+          "discount": "Giảm 28%",
+          "image": "mtb3.png",
+          "rating": 5,
+          "category": "tablet"
+        },
+        {
+          "id": 24,
+          "name": "iPad Mini 7 2024 Wifi 128GB",
+          "price": "13.990.000đ",
+          "oldPrice": "16.990.000đ",
+          "discount": "Giảm 18%",
+          "image": "mtb4.png",
+          "rating": 5,
+          "category": "tablet"
+        },
+        {
+          "id": 25,
+          "name": "Huawei MatePad SE 11 inch 6GB 128GB",
+          "price": "4.990.000đ",
+          "oldPrice": "5.490.000đ",
+          "discount": "Giảm 9%",
+          "image": "mtb5.png",
+          "rating": 5,
+          "category": "tablet"
+        }
   ]
 }

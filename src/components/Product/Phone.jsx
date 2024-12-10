@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import ProductList from "./ProductList"; // Import ProductList
+import { Link } from "react-router-dom";
 
 const Phone = () => {
   const [products, setProducts] = useState([]);
@@ -75,12 +76,24 @@ const Phone = () => {
         {/* Các nút loại điện thoại */}
         <div className="flex gap-4">
           {categories.map((category) => (
-            <button
+            <Link
+              to={category === "Apple" ? "/apple" : "#"}
               key={category}
-              className="px-4 py-2 rounded-xl text-sm bg-gray-200 text-gray-800 hover:bg-gray-300 focus:outline-none"
+              className={`px-4 py-2 rounded-xl text-sm ${
+                category === "Apple"
+                  ? "bg-gray-200 text-gray-800 hover:bg-gray-300"
+                  : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+              }`}
+              onClick={(e) => {
+                if (category !== "Apple") {
+                  e.preventDefault(); // Disable click
+                }
+              }}
             >
               {category}
-            </button>
+            </Link>
+
+
           ))}
         </div>
       </div>
@@ -89,7 +102,7 @@ const Phone = () => {
         {/* Nút Prev */}
         <button
           onClick={prevProducts}
-          className="px-4 py-2 bg-gray-300 text-white rounded-l-lg hover:bg-gray-400 text-2xl absolute z-10 left-0"
+          className="px-2 py-2 bg-gray-200 text-white rounded-r-full hover:bg-gray-400 text-2xl absolute z-10 -left-2"
         >
           &lt;
         </button>
@@ -104,7 +117,7 @@ const Phone = () => {
         {/* Nút Next */}
         <button
           onClick={nextProducts}
-          className="px-4 py-2 bg-gray-300 text-white rounded-r-lg hover:bg-gray-400 text-2xl absolute z-10 right-0"
+          className="px-2 py-2 bg-gray-200 text-white rounded-l-full hover:bg-gray-400 text-2xl absolute z-10 -right-2"
         >
           &gt;
         </button>
